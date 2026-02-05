@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validica | Pharmaceutical Quality & Validation Consulting</title>
+    <title>Validica | Smart Compliance</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Neon scroll progress -->
+    <div class="neon-progress"></div>
+
     <!-- Home Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
                 <img src="validica-logo.png" alt="Validica" class="hero-logo">
-                <nav class="hero-nav">
+                <nav class="hero-nav reveal reveal--down">
                     <a href="#home" class="nav-link active">HOME</a>
                     <a href="#services" class="nav-link">SERVICES</a>
                     <a href="#about" class="nav-link">ABOUT</a>
@@ -23,14 +26,14 @@
                 </nav>
             </div>
             <div class="hero-banner-body">
-                <div class="hero-banner-text">
+                <div class="hero-banner-text reveal reveal--right">
                     <h1><span class="highlight">Validica:</span> Smart Compliance</h1>
                     <p>Validica is a consultancy firm specializing in the <span class="highlight">pharmaceutical industry</span>, Quality Management Systems, and Regulatory Compliance. We help companies translate regulatory requirements into practical, effective solutions.</p>
                     <p>At Validica, we believe that <span class="highlight">GMP</span> is not a one-size-fits-all framework. We apply our regulatory knowledge, technical understanding, and inspection experience to design tailored approaches for different products, processes, and facilities that meet regulatory expectations.</p>
                     <p>We work with a phase-appropriate <span class="highlight">GMP</span> mindset, adjusting the control practices and structure to the development stage of your drug product — ensuring compliance that is scientifically justified and risk-based.</p>
                     <p>That is what we call <span class="highlight">Smart Compliance</span>: a way of working where regulatory rigor meets innovative thinking.</p>
                 </div>
-                <div class="hero-banner-image">
+                <div class="hero-banner-image reveal reveal--left">
                     <img src="validica-aseptic-area.png" alt="Aseptic Area Validation">
                 </div>
             </div>
@@ -40,16 +43,16 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal reveal--up">
                 <p class="section-tag">What We Do</p>
                 <h2>Our Services</h2>
             </div>
             <div class="services-content">
-                <div class="services-image">
+                <div class="services-image reveal reveal--right">
                     <img src="validica-qc-lab.png" alt="Quality Control Laboratory">
                 </div>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <div class="service-card reveal reveal--up reveal--delay-1">
                         <div class="service-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -59,7 +62,7 @@
                             <h3>Mock inspections, inspection readiness programs and remediation EU/FDA.</h3>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card reveal reveal--up reveal--delay-2">
                         <div class="service-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
@@ -69,7 +72,7 @@
                             <h3>GMP Quality Oversight</h3>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card reveal reveal--up reveal--delay-3">
                         <div class="service-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
@@ -79,7 +82,7 @@
                             <h3>Validation approaches & protocols (Cleaning, process, analytical)</h3>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card reveal reveal--up reveal--delay-4">
                         <div class="service-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
@@ -98,7 +101,7 @@
     <section id="about" class="about">
         <div class="container">
             <div class="about-grid">
-                <div class="about-content">
+                <div class="about-content reveal reveal--right">
                     <p class="section-tag">About</p>
                     <h2>Laura Moreno</h2>
                     <p class="about-subtitle">Pharma Quality & Regulatory Consultant | GMP Compliance | EU QP</p>
@@ -108,24 +111,28 @@
                     <p>I founded Validica to deliver smart, tailored GMP compliance — combining technical rigor with pragmatic, scalable solutions that support innovation.</p>
                     <p>My background includes a PhD in Medicinal Chemistry and a career path from Quality Control Specialist to QA Director and Qualified Person. I believe strong quality comes from understanding the rules and applying them with judgment.</p>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <span class="stat-number">15+</span>
-                        <span class="stat-label">Years of Experience</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">200+</span>
-                        <span class="stat-label">Projects Delivered</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Clients Worldwide</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Audit Success Rate</span>
-                    </div>
+                <div class="about-image reveal reveal--left">
+                    <img src="laura.png" alt="Laura Moreno">
                 </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card reveal reveal--scale reveal--delay-1">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years of Experience</span>
+                </div>
+                <div class="stat-card reveal reveal--scale reveal--delay-2">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-card reveal reveal--scale reveal--delay-3">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Clients Worldwide</span>
+                </div>
+                <div class="stat-card reveal reveal--scale reveal--delay-4">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Audit Success Rate</span>
+                </div>
+            </div>
             </div>
         </div>
     </section>
@@ -134,7 +141,7 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-grid">
-                <div class="contact-info">
+                <div class="contact-info reveal reveal--right">
                     <p class="section-tag">Get Started</p>
                     <h2>Contact</h2>
                     <p>Ready to discuss your validation needs? We're here to help you achieve compliance and excellence.</p>
@@ -154,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" action="#" method="POST">
+                <form class="contact-form reveal reveal--left" action="#" method="POST">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -221,11 +228,13 @@
             });
         });
 
-        // Active nav link on scroll
+        // Active nav link on scroll + neon effects
         const sections = document.querySelectorAll('section');
         const navLinks = document.querySelectorAll('.nav-link');
+        const neonProgress = document.querySelector('.neon-progress');
 
         window.addEventListener('scroll', () => {
+            // Nav link highlight
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop - 100;
@@ -239,7 +248,30 @@
                     link.classList.add('active');
                 }
             });
+
+            // Neon progress bar
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            neonProgress.style.width = scrollPercent + '%';
         });
+
+        // Scroll Reveal with Intersection Observer
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal--visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.15,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
     </script>
 </body>
 </html>
