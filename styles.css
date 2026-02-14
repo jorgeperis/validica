@@ -337,7 +337,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-text h3 {
     font-size: var(--text-md);
-    margin-bottom: 0;
+    margin-bottom: 4px;
+}
+
+.service-text p {
+    font-size: var(--text-sm);
+    color: var(--text-light);
+    margin: 0;
+    line-height: 1.5;
 }
 
 /* ============================================
@@ -379,9 +386,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.7;
 }
 
+.about-image {
+    margin-top: 60px;
+}
+
 .about-image img {
     width: 100%;
-    max-width: 400px;
     height: auto;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
@@ -478,6 +488,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-item a:hover {
     color: var(--primary);
+}
+
+.contact-image {
+    margin: var(--space-md) 0;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
 }
 
 .contact-form {
