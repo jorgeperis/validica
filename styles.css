@@ -246,6 +246,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: var(--space-sm);
 }
 
+.btn-cta {
+    margin-top: 24px;
+    font-size: 16px;
+    padding: 16px 40px;
+}
+
 .hero-banner-image {
     flex: 1;
     display: flex;
@@ -559,6 +565,30 @@ h1, h2, h3, h4, h5, h6 {
 .form-group textarea {
     resize: vertical;
     min-height: 120px;
+}
+
+.form-message {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.form-message p {
+    padding: 12px;
+    border-radius: var(--radius);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-error {
+    background: #fee2e2;
+    color: #dc2626;
+    border: 1px solid #fecaca;
+}
+
+.form-success {
+    background: #dcfce7;
+    color: #16a34a;
+    border: 1px solid #bbf7d0;
 }
 
 /* ============================================
